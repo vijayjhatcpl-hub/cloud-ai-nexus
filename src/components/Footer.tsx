@@ -13,7 +13,7 @@ const Footer = () => {
               <img src={qtechLogo} alt="QTech Solutions" className="h-[60px] w-auto" />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
-              Transforming enterprises through Cloud, AI, and Data solutions. Your trusted partner for digital transformation.
+              Transforming enterprises through Cloud, AI, and Data solutions. Future As You Want.
             </p>
             <div className="flex gap-3">
               {[Linkedin, Twitter, Github].map((Icon, i) => (
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center text-sm text-primary-foreground/50">
-          <p>© {new Date().getFullYear()} NexaSphere Technologies. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} QTech Solutions. All rights reserved.</p>
         </div>
       </div>
     </footer>

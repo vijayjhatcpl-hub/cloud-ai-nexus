@@ -27,7 +27,7 @@ const AboutPage = () => {
       <PageHero
         badge="About Us"
         title="Empowering Enterprises Through Technology"
-        description="NexaSphere is a premier cloud and AI consulting firm dedicated to helping enterprises achieve digital transformation."
+        description="QTech Solutions is a premier cloud and AI consulting firm dedicated to helping enterprises achieve digital transformation."
       />
 
       {/* Mission & Vision */}
@@ -107,7 +107,7 @@ const AboutPage = () => {
             Let's Build the Future Together
           </h2>
           <p className="text-primary-foreground/70 text-lg max-w-2xl mx-auto mb-8">
-            Partner with NexaSphere to accelerate your enterprise transformation.
+            Partner with QTech Solutions to accelerate your enterprise transformation.
           </p>
           <Button variant="hero" size="lg" asChild>
             <Link to="/contact">Get in Touch <ArrowRight size={18} /></Link>
