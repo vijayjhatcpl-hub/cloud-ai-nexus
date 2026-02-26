@@ -5,8 +5,8 @@ import {
   Cloud, Brain, Database, Server,
   Shield, Zap, Users, Globe,
   Building2, HeartPulse, Landmark, ShoppingCart,
-  Factory, Plane, GraduationCap, Quote,
-  ArrowRight, CheckCircle2
+  Factory, Plane, GraduationCap,
+  ArrowRight
 } from "lucide-react";
 
 const services = [
@@ -33,11 +33,6 @@ const industries = [
   { icon: GraduationCap, name: "Education" },
 ];
 
-const testimonials = [
-  { name: "Sarah Chen", role: "CTO, FinVault Inc.", quote: "NexaSphere transformed our cloud infrastructure, reducing costs by 40% while improving performance across all our services." },
-  { name: "Marcus Johnson", role: "VP Engineering, MedFlow", quote: "Their AI-driven database optimization saved us hundreds of engineering hours and made our systems incredibly reliable." },
-  { name: "Elena Rodriguez", role: "Director of IT, RetailPro", quote: "The Oracle EBS migration was seamless. NexaSphere's expertise in hybrid cloud made a complex project feel effortless." },
-];
 
 const Index = () => {
   return (
@@ -128,28 +123,6 @@ const Index = () => {
               <div key={i} className="flex items-center gap-3 px-6 py-4 rounded-xl bg-card border border-border card-shadow hover:card-shadow-hover transition-all duration-300 hover:-translate-y-0.5">
                 <ind.icon size={20} className="text-primary" />
                 <span className="font-medium text-sm">{ind.name}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="section-padding gradient-subtle">
-        <div className="container-wide">
-          <SectionHeader
-            badge="Testimonials"
-            title="What Our Clients Say"
-          />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-            {testimonials.map((t, i) => (
-              <div key={i} className="bg-card rounded-xl p-8 card-shadow border border-border relative">
-                <Quote size={32} className="text-primary/10 absolute top-6 right-6" />
-                <p className="text-muted-foreground leading-relaxed mb-6 italic">"{t.quote}"</p>
-                <div>
-                  <p className="font-heading font-semibold text-foreground">{t.name}</p>
-                  <p className="text-sm text-muted-foreground">{t.role}</p>
-                </div>
               </div>
             ))}
           </div>
