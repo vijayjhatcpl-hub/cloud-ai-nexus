@@ -92,7 +92,7 @@ const Index = () => {
       <section className="section-padding gradient-subtle">
         <div className="container-wide">
           <SectionHeader
-            badge="Why NexaSphere"
+            badge="Why QTech Solutions"
             title="Built for Enterprise Excellence"
             description="We combine deep technical expertise with a proven enterprise methodology to deliver solutions that scale."
           />

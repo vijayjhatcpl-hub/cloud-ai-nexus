@@ -105,14 +105,17 @@ const ContactPage = () => {
                 </Button>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="bg-card rounded-xl overflow-hidden card-shadow border border-border">
-                <div className="h-48 gradient-subtle flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin size={32} className="text-primary mx-auto mb-2" />
-                    <p className="text-sm text-muted-foreground">West Hempstead, NY</p>
-                  </div>
-                </div>
+              <div className="rounded-xl overflow-hidden card-shadow border border-border">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9!2d-73.6507!3d40.7048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c27e3b54541e91%3A0x0!2s118+Spruce+St%2C+West+Hempstead%2C+NY+11552!5e0!3m2!1sen!2sus!4v1700000000000"
+                  width="100%"
+                  height="200"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="QTech Solutions Office Location"
+                />
               </div>
             </div>
           </div>
