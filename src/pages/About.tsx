@@ -56,29 +56,6 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Leadership */}
-      <section className="section-padding gradient-subtle">
-        <div className="container-wide">
-          <SectionHeader
-            badge="Leadership"
-            title="Meet Our Team"
-            description="Industry veterans with deep expertise across cloud, AI, and enterprise systems."
-          />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {leaders.map((l, i) => (
-              <div key={i} className="bg-card rounded-xl p-6 card-shadow border border-border text-center">
-                <div className="w-20 h-20 rounded-full gradient-card flex items-center justify-center mx-auto mb-4">
-                  <Users size={32} className="text-primary-foreground" />
-                </div>
-                <h3 className="font-heading font-semibold text-lg">{l.name}</h3>
-                <p className="text-primary text-sm font-medium mb-2">{l.role}</p>
-                <p className="text-muted-foreground text-sm">{l.bio}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Technology Expertise */}
       <section className="section-padding">
         <div className="container-wide">
