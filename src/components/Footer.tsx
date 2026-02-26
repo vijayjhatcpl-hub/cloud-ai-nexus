@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import qtechLogo from "@/assets/qtech-logo.png";
 
 const Footer = () => {
   return (
@@ -9,10 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-primary-foreground/20 flex items-center justify-center">
-                <span className="font-heading font-bold text-lg">N</span>
-              </div>
-              <span className="font-heading font-bold text-xl">NexaSphere</span>
+              <img src={qtechLogo} alt="QTech Solutions" className="h-10 w-auto brightness-0 invert" />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
               Transforming enterprises through Cloud, AI, and Data solutions. Your trusted partner for digital transformation.

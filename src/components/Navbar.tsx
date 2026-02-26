@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import qtechLogo from "@/assets/qtech-logo.png";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -22,10 +23,7 @@ const Navbar = () => {
       <div className="container-wide px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-9 h-9 rounded-lg gradient-card flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-lg">N</span>
-            </div>
-            <span className="font-heading font-bold text-xl text-foreground">NexaSphere</span>
+            <img src={qtechLogo} alt="QTech Solutions" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop nav */}
