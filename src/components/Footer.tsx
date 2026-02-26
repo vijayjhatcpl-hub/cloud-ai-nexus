@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src={qtechLogo} alt="QTech Solutions" className="h-10 w-auto" />
+              <img src={qtechLogo} alt="QTech Solutions" className="h-[60px] w-auto" />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
               Transforming enterprises through Cloud, AI, and Data solutions. Your trusted partner for digital transformation.
@@ -50,9 +50,9 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-lg mb-4">Contact</h4>
             <ul className="space-y-3 text-sm text-primary-foreground/70">
-              <li className="flex items-center gap-2"><Mail size={14} /> info@nexasphere.com</li>
-              <li className="flex items-center gap-2"><Phone size={14} /> +1 (555) 123-4567</li>
-              <li className="flex items-start gap-2"><MapPin size={14} className="mt-0.5 shrink-0" /> 123 Innovation Drive, San Francisco, CA 94105</li>
+              <li className="flex items-center gap-2"><Mail size={14} /> info@qtechsolns.com</li>
+              <li className="flex items-center gap-2"><Phone size={14} /> +1 (516)-880-9996</li>
+              <li className="flex items-start gap-2"><MapPin size={14} className="mt-0.5 shrink-0" /> 118 Spruce Street, West Hempstead, NY 11552</li>
             </ul>
           </div>
         </div>

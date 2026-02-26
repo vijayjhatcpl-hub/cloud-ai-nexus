@@ -8,10 +8,10 @@ import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "info@nexasphere.com" },
-  { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
-  { icon: MapPin, label: "Address", value: "123 Innovation Drive, San Francisco, CA 94105" },
-  { icon: Clock, label: "Business Hours", value: "Mon–Fri: 9:00 AM – 6:00 PM PST" },
+  { icon: Mail, label: "Email", value: "info@qtechsolns.com" },
+  { icon: Phone, label: "Phone", value: "+1 (516)-880-9996" },
+  { icon: MapPin, label: "Address", value: "118 Spruce Street, West Hempstead, NY 11552" },
+  { icon: Clock, label: "Business Hours", value: "Mon–Fri: 9:00 AM – 6:00 PM EST" },
 ];
 
 const ContactPage = () => {
@@ -110,7 +110,7 @@ const ContactPage = () => {
                 <div className="h-48 gradient-subtle flex items-center justify-center">
                   <div className="text-center">
                     <MapPin size={32} className="text-primary mx-auto mb-2" />
-                    <p className="text-sm text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-sm text-muted-foreground">West Hempstead, NY</p>
                   </div>
                 </div>
               </div>

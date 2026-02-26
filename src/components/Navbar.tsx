@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container-wide px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link to="/" className="flex items-center gap-2">
-            <img src={qtechLogo} alt="QTech Solutions" className="h-10 w-auto" />
+            <img src={qtechLogo} alt="QTech Solutions" className="h-[60px] w-auto" />
           </Link>
 
           {/* Desktop nav */}
