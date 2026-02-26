@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src={qtechLogo} alt="QTech Solutions" className="h-10 w-auto brightness-0 invert" />
+              <img src={qtechLogo} alt="QTech Solutions" className="h-10 w-auto" />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
               Transforming enterprises through Cloud, AI, and Data solutions. Your trusted partner for digital transformation.
